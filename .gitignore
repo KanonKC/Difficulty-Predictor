@@ -1,0 +1,5 @@
+*.csv
+*.sqlite3
+*.json
+*.zip
+PROGpedia/*
