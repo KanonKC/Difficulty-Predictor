@@ -2,9 +2,10 @@ import pickle
 
 # Read sav
 
-with open('finalized_model.sav', 'rb') as f:
+with open('difficulty_predictor.sav', 'rb') as f:
     difficulty = pickle.load(f)
 
 # Predict some model
-
-difficulty.predict([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])
+	
+result = difficulty.predict([[27, 7609.605477]])
+print(f"Result {result}")
